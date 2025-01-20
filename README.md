@@ -7,7 +7,7 @@ This project is a part of the **Highload Software Architecture Course**. It impl
 
 Start all services using Docker Compose:
 
-		`docker-compose up -d`
+	docker-compose up -d
 
 This will start the following services:
 - Micronaut application on http://localhost:8080
@@ -18,7 +18,7 @@ This will start the following services:
 
 Run the load testing script to simulate traffic:
 
-      `./load_test.sh`
+	./load_test.sh
 
 This script will generate load for the following API endpoints:
 - GET /api/mongo/add
